@@ -34,5 +34,9 @@ if "espresso" in coffee_var:
     print("Espresso is available.") #checks for the presence of specific varieties in the tea and coffee lists.
 if "black" in tea_var:
  print("Black tea is available.")
+ print(reversed(all_varieties))
+for variety in all_varieties:
+    print("Enjoy your", variety + "!")
  
+
 
