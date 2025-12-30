@@ -1,7 +1,7 @@
 
 # Grade Calculator:
 
-score = -2
+score = -3
 
 if score > 100 or score < 0:
     print("Invalid score")
