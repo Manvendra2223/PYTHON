@@ -13,4 +13,8 @@ a , c = circle_stats(5)  # calling the function with radius 5 and unpacking the 
 print("Area:", a, "Circumference:", c)  # printing the area and circumference
 
 
+## if we take only after 2 digit after decimal point
+a , c = circle_stats(5)  # calling the function with radius 5 and unpacking the returned tuple
+print("Area: {:.2f}, Circumference: {:.2f}".format(a, c))  # printing the area and circumference with 2 decimal points
+
 
