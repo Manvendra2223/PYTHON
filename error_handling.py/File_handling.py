@@ -2,8 +2,7 @@
  ##  File Handling 
  
  
- 
-# Open a file named "youtube.txt" in write mode ('w')
+## Open a file named "youtube.txt" in write mode ('w')
 # If the file does not exist, Python will create it automatically
 file = open("youtube.txt", 'w')
 
