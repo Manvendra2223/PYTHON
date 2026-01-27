@@ -15,7 +15,6 @@ finally:
     # Close the file to save changes and free memory
     file.close()
 
-
 # Another and better way to work with files is using "with"
 # "with" automatically closes the file for us, so we don’t need file.close()
 with open('youtube.txt', 'w') as file:
